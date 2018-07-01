@@ -304,7 +304,8 @@ section.grid-container {
     section.grid-container .product-05-wrapper .square-frame {
       grid-column: 2 / span 2;
       grid-row: 3 / span 1;
-      transform: translateY(50px); }
+      transform: translateY(50px);
+      z-index: -1; }
     section.grid-container .product-05-wrapper .pic-num {
       grid-column: 2 / span 1;
       grid-row: 3 / span 1;
@@ -326,7 +327,8 @@ section.grid-container {
       grid-row: 2 / span 4; }
     section.grid-container .product-06-wrapper .pic-title {
       grid-column: 2 / span 3;
-      grid-row: 1 / span 1; }
+      grid-row: 1 / span 1;
+      align-self: end; }
     section.grid-container .product-06-wrapper .square-frame {
       grid-column: 1 / span 4;
       grid-row: 5 / span 1;
